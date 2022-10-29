@@ -22,12 +22,14 @@
 
 В папке infra создать файл .env и наполнить его следующим содержимым:
 
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres 
-DB_HOST=db
-DB_PORT=5432
+    ```
+ DB_ENGINE=django.db.backends.postgresql
+ DB_NAME=postgres
+ POSTGRE_USER=postgres
+ POSTGRES_PASSWORD=postgres
+ DB_HOST=db
+ DB_PORT=5432
+    ```
 
 Зайти в консоль bash, перейти в папку infra и выполнить команды:
 
